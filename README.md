@@ -19,3 +19,4 @@ $ make html # After that, the generated doc can be found in rCore-Tutorial-Book-
 $ # modify the doc
 $ git push # or pull request
 ```
+触发actions
