@@ -37,6 +37,12 @@ extensions = [
     "sphinxcontrib.mermaid"
 ]
 
+mermaid_cmd_options = [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-gpu',
+]
+
 # mermaid_output_format = 'png'
 mermaid_output_format = 'raw'
 mermaid_version = '9.3.0'
